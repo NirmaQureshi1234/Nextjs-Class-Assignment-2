@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import styles from "@/app/styles/Header.module.css";
 
-const Navbar = () => (
+const Header = () => (
   <header className={styles.header}>
     <nav className={styles.nav}>
       <div className={styles.logo}>Art & Craft</div>
@@ -34,4 +34,4 @@ const Navbar = () => (
   </header>
 );
 
-export default Navbar;
+export default Header;

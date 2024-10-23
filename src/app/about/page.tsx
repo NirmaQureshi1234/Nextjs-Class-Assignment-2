@@ -1,5 +1,5 @@
 // components/About.tsx
-import styles from "@/app/Styles/About.module.css";
+import styles from "@/app/styles/About.module.css";
 
 const About = () => {
   return (

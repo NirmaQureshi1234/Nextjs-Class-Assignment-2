@@ -1,4 +1,4 @@
-import styles from "@/app/Styles/Gallery.module.css";
+import styles from "@/app/styles/Gallery.module.css";
 import Image from "next/image";
 
 const Gallery = () => {
@@ -10,7 +10,6 @@ const Gallery = () => {
           <Image
             src="/artest6.jpg"
             alt="Art Piece 1"
-            layout="responsive"
             width={500}
             height={400}
           />
@@ -19,7 +18,6 @@ const Gallery = () => {
           <Image
             src="/ars.jpg"
             alt="Art Piece 2"
-            layout="responsive"
             width={500}
             height={400}
           />
@@ -28,7 +26,6 @@ const Gallery = () => {
           <Image
             src="/artest3.jpg"
             alt="Art Piece 3"
-            layout="responsive"
             width={500}
             height={400}
           />
@@ -37,7 +34,6 @@ const Gallery = () => {
           <Image
             src="/artest4.jpg"
             alt="Art Piece 4"
-            layout="responsive"
             width={500}
             height={400}
           />

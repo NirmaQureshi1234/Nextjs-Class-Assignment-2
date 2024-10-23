@@ -1,5 +1,5 @@
 // components/Footer.tsx
-import styles from "@/app/Styles/Footer.module.css";
+import styles from "@/app/styles/Footer.module.css";
 import Link from "next/link";
 
 const Footer = () => {

@@ -1,5 +1,5 @@
 // components/Contact.tsx
-import styles from "@/app/Styles/Contact.module.css";
+import styles from "@/app/styles/Contact.module.css";
 import Image from "next/image";
 
 const Contact = () => {
@@ -22,7 +22,6 @@ const Contact = () => {
         <Image
           src="/artesrt7.jpg"
           alt="Art and Craft"
-          layout="responsive"
           width={300}
           height={300}
         />
