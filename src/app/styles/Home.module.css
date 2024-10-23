@@ -1,0 +1,65 @@
+.container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    padding: 2rem; 
+    max-width: 1000px; 
+    margin: 0 auto; 
+    text-align: center; 
+     height: 50%;
+}
+
+
+.description {
+    font-size: 1.125rem; 
+    line-height: 1.6; 
+    margin-bottom: 2rem; 
+}
+
+.services {
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: 1rem; 
+    margin-bottom: 2rem; 
+}
+
+.serviceCard {
+    background-color: #f9f9f9; 
+    border-radius: 8px; 
+    padding: 1rem; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.serviceTitle {
+    font-size: 1.5rem; 
+    margin-top: 0.5rem; 
+    color: #333; 
+}
+
+.serviceDescription {
+    font-size: 1rem; 
+    line-height: 1.4; 
+}
+
+.cta {
+    font-size: 1.25rem;
+    margin-top: 2rem; 
+}
+
+@media (max-width: 600px) {
+    .title {
+        font-size: 2rem; 
+    }
+
+    .description {
+        font-size: 1rem; 
+    }
+
+    .serviceTitle {
+        font-size: 1.25rem;
+    }
+
+    .cta {
+        font-size: 1rem; 
+    }
+}
